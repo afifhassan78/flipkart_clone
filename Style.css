@@ -1,0 +1,290 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #2874f0;
+    color: white;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase; /* Makes the text uppercase */
+    font-family: 'Arial', sans-serif; /* You can use any font of your choice */
+}
+
+/* Optionally, you can add a text-shadow for logo effect */
+header .logo-text {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow effect */
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #000000;  /* Black text color for the header */
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #000000;  /* Black text color for the paragraph */
+}
+
+.hero .btn-primary {
+    background-color: #f2c038;
+    color: #2874f0;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero .btn-primary:hover {
+    background-color: #d9a334;
+}
+
+/* Product Categories Section */
+.categories {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.category {
+    text-align: center;
+    padding: 20px;
+    width: 220px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.category h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 1em;
+}
+
+.category:hover {
+    transform: translateY(-10px);
+}
+
+/* Featured Products Section */
+.products {
+    padding: 40px 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,
+
+    /* Featured Products Section (continued) */
+.product-card {
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px); /* Slight lift effect on hover */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.product-card h3 {
+    font-size: 1.8em;
+    color: #2874f0;
+    margin-bottom: 15px;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #333;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #f2c038; /* Price in yellow */
+    margin-bottom: 15px;
+}
+
+.old-price {
+    font-size: 1.2em;
+    color: #888;
+    text-decoration: line-through;
+}
+
+.rating {
+    margin-bottom: 15px;
+    color: #f2c038;
+}
+
+.rating span {
+    font-size: 1.4em;
+}
+
+.btn-secondary,
+.btn-tertiary {
+    background-color: #2874f0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.btn-secondary:hover,
+.btn-tertiary:hover {
+    background-color: #d9a334;
+}
+
+/* Footer Section */
+footer {
+    background-color: #2874f0; /* GoShop's blue color */
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 1.1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px; /* Adds space above footer */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between left and right sections */
+    align-items: center;
+    max-width: 1200px; /* Limit width for large screens */
+    margin: 0 auto; /* Center the content */
+}
+
+.footer-left p, .footer-right p {
+    margin: 0;
+}
+
+.footer-right p {
+    font-size: 1em;
+}
+
+footer a {
+    color: #f2c038; /* Yellow color for links */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Sticky Footer to always stay at the bottom if the page is short */
+body, html {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Ensures the content takes up available space */
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack left and right content vertically on smaller screens */
+        text-align: center;
+    }
+
+    .footer-right p {
+        margin-top: 10px;
+    }
+
+    .product-container {
+        flex-direction: column; /* Stack product cards vertically */
+        align-items: center;
+    }
+
+    .product-card {
+        width: 100%;
+        max-width: 350px; /* Ensures cards are not too wide on small screens */
+    }
+}
