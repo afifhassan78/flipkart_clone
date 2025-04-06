@@ -13,13 +13,13 @@ HTML5: For structuring the content.
 CSS3: For layout and styling of the website.
 JavaScript: For adding interactivity, including smooth scroll and cart actions.
 
-How to Run the Project Locally
+How to Run the Project Locally<br/>
 1.Clone the repository:
 git clone https://github.com/your-username/goshop.git
 2.Navigate to the project folder:
 cd goshop
-
 3.Open the index.html file in your browser to view the website.
+
 Folder Structure:
 /goshop
 │
